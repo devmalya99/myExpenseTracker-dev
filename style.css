@@ -1,0 +1,68 @@
+/* Style.css content */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 2rem;
+    background-color: #78e687;  /* Set a light color for background */
+    border-radius: 10px; /* Rounded borders */
+    padding: 2rem; /* Padding around the form */
+    box-shadow: 0 0 15px 10px #00000033; /* Box shadow for a depth effect */
+
+   
+}
+
+.centered-title {
+    text-align: center;
+    margin: auto;
+  }
+
+/* Add some space between form fields and center them */
+form .col-auto {
+    margin: 1rem auto 20px;
+    width: 60%;
+}
+
+/* Change color scheme in button, add hover effect */
+.btn-primary {
+    background-color: #5a67d8;
+    border-color: #4c51bf;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #4c51bf;
+    border-color: #434190;
+}
+
+/* Change form inputs and select box styles */
+.form-control, .form-select {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #1f29e2;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #3a4add;
+    box-shadow: none;
+}
+
+/* Style for table */
+.table {
+    width: 80%;
+    margin: 2rem auto 20px;
+}
+
+.table-info {
+    background-color: #17a2b8;
+    color: #180f0f;
+    border-radius: 10px;
+}
+
+.table thead th {
+    color: #240e0e;
+}
+
